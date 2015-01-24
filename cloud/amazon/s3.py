@@ -136,6 +136,12 @@ options:
     default: null
     aliases: []
     version_added: "1.3"
+  profile:
+    description:
+     - "Use a boto profile for authentication"
+    required: false
+    default: null
+    version_added: "1.9"
 
 requirements: [ "boto" ]
 author:
